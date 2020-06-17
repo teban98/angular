@@ -1,20 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ListarComponent } from './listar.component';
 
-import { PantallaBienvenidaComponent } from './pantalla-bienvenida.component';
-
-describe('PantallaBienvenidaComponent', () => {
-  let component: PantallaBienvenidaComponent;
-  let fixture: ComponentFixture<PantallaBienvenidaComponent>;
+describe('ListarComponent', () => {
+  let component: ListarComponent;
+  let fixture: ComponentFixture<ListarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PantallaBienvenidaComponent ]
+      declarations: [ ListarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PantallaBienvenidaComponent);
+    fixture = TestBed.createComponent(ListarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
